@@ -8,15 +8,22 @@ const font = Jost({
 
 interface HeaderProps {
   label: string;
+  className?: string;
 }
 
-const Header = ({ label }: HeaderProps) => {
+export const Header = ({
+  label,
+  className
+}: HeaderProps) => {
   return (
-    <div className="w-full flex flex-col gap-y-4 items-center justify-center">
-      <h1 className={cn("text-3xl font-semibold", font.className)}>🔐 Auth</h1>
-      <p className="text-muted-foreground text-sm">{label}</p>
+    <div className={cn("w-full flex flex-col gap-y-4 items-center", className)}>
+      <h1 className="text-3xl font-semibold">
+        <span className="text-[#1e2c51]">RN</span>
+        <span>Student</span>
+      </h1>
+      <p className="text-muted-foreground text-sm">
+        {label}
+      </p>
     </div>
   );
 };
-
-export default Header;
