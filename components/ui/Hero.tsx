@@ -111,7 +111,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            Join over <span className="font-semibold text-[#1e2c51]">50,000+</span> nursing students who've achieved their goals with our comprehensive study materials and practice tests
+            Join over <span className="font-semibold text-[#1e2c51]">50,000+</span> nursing students who&apos;ve achieved their goals with our comprehensive study materials and practice tests
           </motion.p>
 
           <motion.div
