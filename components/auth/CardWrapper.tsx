@@ -9,7 +9,7 @@ import {
   CardTitle,
   CardDescription,
 } from "../ui/card";
-import Header from "./header";
+import Header from "./Header";
 import { Jost } from "next/font/google";
 import Social from "./Social";
 import BackButton from "./BackButton";
