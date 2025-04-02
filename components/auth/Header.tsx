@@ -11,7 +11,7 @@ interface HeaderProps {
   className?: string;
 }
 
-export const Header = ({
+const Header = ({
   label,
   className
 }: HeaderProps) => {
@@ -27,3 +27,5 @@ export const Header = ({
     </div>
   );
 };
+
+export default Header;
