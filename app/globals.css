@@ -19,8 +19,13 @@
       --popover: 0 0% 100%;
       --popover-foreground: 222.2 84% 4.9%;
 
-      --primary: #2563eb;
+      --primary: #5d8e9a;
       --primary-foreground: #ffffff;
+      --primary-hover: #537f8a;
+      --primary-dark: #4a7280;
+      --primary-darkest: #40636f;
+      --primary-light: #7ca8b3;
+      --primary-lightest: #b0ccd3;
 
       --secondary: 210 40% 96.1%;
       --secondary-foreground: 222.2 47.4% 11.2%;
@@ -103,4 +108,19 @@
 
 .scrollbar-hide::-webkit-scrollbar {
   display: none;  /* Chrome, Safari and Opera */
+}
+
+/* Add these utility classes for dotted patterns */
+.bg-dotted-h-white {
+  background-image: linear-gradient(to right, white 10%, rgba(255, 255, 255, 0) 0%);
+  background-position: top;
+  background-size: 8px 1px;
+  background-repeat: repeat-x;
+}
+
+.bg-dotted-v-white {
+  background-image: linear-gradient(white 10%, rgba(255, 255, 255, 0) 0%);
+  background-position: left;
+  background-size: 1px 8px;
+  background-repeat: repeat-y;
 }

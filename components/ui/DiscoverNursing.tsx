@@ -157,7 +157,7 @@ const DiscoverNursing = () => {
           <h2 className="text-3xl font-bold text-[#1e2c51]">
             Discover Nursing Resources
           </h2>
-          <div className="w-32 h-1 bg-blue-600 mx-auto mt-2 mb-8" />
+          <div className="w-32 h-1 bg-[#5d8e9a] mx-auto mt-2 mb-8" />
         </div>
 
         {/* Filter Buttons */}
@@ -201,7 +201,7 @@ const DiscoverNursing = () => {
                       fill
                       className="object-cover"
                     />
-                    <div className="absolute top-4 left-4 bg-blue-600 text-white px-3 py-1 text-sm rounded-full">
+                    <div className="absolute top-4 left-4 bg-[#5d8e9a] text-white px-3 py-1 text-sm rounded-full">
                       FEATURED
                     </div>
                   </div>
@@ -230,7 +230,7 @@ const DiscoverNursing = () => {
 
                     {course.isAllInclusive && (
                       <div className="flex items-center gap-2 mb-4">
-                        <span className="text-blue-600">✓</span>
+                        <span className="text-[#5d8e9a]">✓</span>
                         <span className="text-sm text-gray-600">All Inclusive</span>
                       </div>
                     )}

@@ -15,8 +15,8 @@ const Features = () => {
           {/* Feature 1 */}
           <div className="flex gap-4">
             <div className="flex-shrink-0">
-              <div className="w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center">
-                <BookOpen className="w-6 h-6 text-[#6366f1]" />
+              <div className="w-12 h-12 rounded-lg bg-[#5d8e9a]/10 flex items-center justify-center">
+                <BookOpen className="w-6 h-6 text-[#5d8e9a]" />
               </div>
             </div>
             <div>
@@ -32,8 +32,8 @@ const Features = () => {
           {/* Feature 2 */}
           <div className="flex gap-4">
             <div className="flex-shrink-0">
-              <div className="w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center">
-                <GraduationCap className="w-6 h-6 text-[#6366f1]" />
+              <div className="w-12 h-12 rounded-lg bg-[#5d8e9a]/10 flex items-center justify-center">
+                <GraduationCap className="w-6 h-6 text-[#5d8e9a]" />
               </div>
             </div>
             <div>
@@ -49,8 +49,8 @@ const Features = () => {
           {/* Feature 3 */}
           <div className="flex gap-4">
             <div className="flex-shrink-0">
-              <div className="w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center">
-                <Clock className="w-6 h-6 text-[#6366f1]" />
+              <div className="w-12 h-12 rounded-lg bg-[#5d8e9a]/10 flex items-center justify-center">
+                <Clock className="w-6 h-6 text-[#5d8e9a]" />
               </div>
             </div>
             <div>
@@ -66,8 +66,8 @@ const Features = () => {
           {/* Feature 4 */}
           <div className="flex gap-4">
             <div className="flex-shrink-0">
-              <div className="w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center">
-                <Download className="w-6 h-6 text-[#6366f1]" />
+              <div className="w-12 h-12 rounded-lg bg-[#5d8e9a]/10 flex items-center justify-center">
+                <Download className="w-6 h-6 text-[#5d8e9a]" />
               </div>
             </div>
             <div>

@@ -50,7 +50,7 @@ const MainNav = () => {
             <Button 
               variant="default" 
               size="sm" 
-              className="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white shadow-md hover:shadow-lg transition-all duration-200"
+              className="bg-gradient-to-r from-[#5d8e9a] to-[#4a7280] hover:from-[#537f8a] hover:to-[#40636f] text-white shadow-md hover:shadow-lg transition-all duration-200"
             >
               <UserPlus size={16} className="mr-2 hidden sm:inline-flex" />
               <span className="hidden sm:inline">Sign Up</span>
@@ -100,13 +100,13 @@ const MainNav = () => {
         </div>
         
         <div className="hidden md:flex flex-shrink-0 items-center space-x-4">
-          <div className="flex items-center justify-center w-6 h-6 rounded-full bg-gradient-to-r from-blue-600/10 to-blue-800/10 text-primary text-sm font-medium">
+          <div className="flex items-center justify-center w-6 h-6 rounded-full bg-gradient-to-r from-[#5d8e9a]/10 to-[#4a7280]/10 text-primary text-sm font-medium">
             0
           </div>
           <Button 
             variant="default" 
             size="sm" 
-            className="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white font-medium shadow-md hover:shadow-lg transition-all duration-200"
+            className="bg-gradient-to-r from-[#5d8e9a] to-[#4a7280] hover:from-[#537f8a] hover:to-[#40636f] text-white font-medium shadow-md hover:shadow-lg transition-all duration-200"
           >
             Book Your Exam
           </Button>
@@ -140,11 +140,11 @@ const MainNav = () => {
             <Button 
               variant="default" 
               size="lg" 
-              className="w-full bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white font-medium shadow-md hover:shadow-lg transition-all duration-200"
+              className="w-full bg-gradient-to-r from-[#5d8e9a] to-[#4a7280] hover:from-[#537f8a] hover:to-[#40636f] text-white font-medium shadow-md hover:shadow-lg transition-all duration-200"
             >
               Book Your Exam
             </Button>
-            <div className="flex items-center justify-center w-full h-6 rounded-full bg-gradient-to-r from-blue-600/10 to-blue-800/10 text-primary text-sm font-medium">
+            <div className="flex items-center justify-center w-full h-6 rounded-full bg-gradient-to-r from-[#5d8e9a]/10 to-[#4a7280]/10 text-primary text-sm font-medium">
               0 Items in Cart
             </div>
           </div>

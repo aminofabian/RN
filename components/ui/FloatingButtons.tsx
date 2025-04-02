@@ -18,7 +18,7 @@ export default function FloatingButtons() {
       {/* Chat Button */}
       <div className="relative">
         <motion.div
-          className="absolute inset-0 bg-[#1e2c51] rounded-full"
+          className="absolute inset-0 bg-[#5d8e9a] rounded-full"
           animate={{
             scale: [1, 1.2, 1],
             opacity: [0.6, 0, 0.6]
@@ -32,7 +32,7 @@ export default function FloatingButtons() {
         />
         <motion.button
           onClick={handleChat}
-          className="relative flex items-center gap-2 bg-[#1e2c51] text-white rounded-full shadow-lg hover:bg-[#1e2c51]/90 transition-colors"
+          className="relative flex items-center gap-2 bg-[#5d8e9a] text-white rounded-full shadow-lg hover:bg-[#537f8a] transition-colors"
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           whileHover={{ scale: 1.05 }}

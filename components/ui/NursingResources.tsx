@@ -169,7 +169,7 @@ const NursingResourcesSection = () => {
                 <div className="absolute top-4 left-4 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-medium">
                   Save {Math.round(((parseFloat(resource.originalPrice.slice(1)) - parseFloat(resource.price.slice(1))) / parseFloat(resource.originalPrice.slice(1))) * 100)}%
                 </div>
-                <div className="absolute bottom-4 left-4 bg-[#6366f1] text-white px-4 py-1 rounded-full text-sm">
+                <div className="absolute bottom-4 left-4 bg-[#5d8e9a] text-white px-4 py-1 rounded-full text-sm">
                   {resource.price}
                 </div>
               </div>
@@ -215,7 +215,7 @@ const NursingResourcesSection = () => {
                         {resource.price}
                       </span>
                     </div>
-                    <button className="bg-[#6366f1] hover:bg-[#4f46e5] text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                    <button className="bg-[#5d8e9a] hover:bg-[#537f8a] text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
                       View Details
                     </button>
                   </div>

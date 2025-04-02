@@ -20,12 +20,12 @@ const Footer = () => {
             <input
               type="text"
               placeholder="Full Name*"
-              className="flex-1 px-4 py-2 bg-[#1c2531] border border-gray-700 rounded text-sm focus:outline-none focus:border-blue-500"
+              className="flex-1 px-4 py-2 bg-[#1c2531] border border-gray-700 rounded text-sm focus:outline-none focus:border-[#5d8e9a]"
             />
             <input
               type="email"
               placeholder="Email ID*"
-              className="flex-1 px-4 py-2 bg-[#1c2531] border border-gray-700 rounded text-sm focus:outline-none focus:border-blue-500"
+              className="flex-1 px-4 py-2 bg-[#1c2531] border border-gray-700 rounded text-sm focus:outline-none focus:border-[#5d8e9a]"
             />
             <button className="px-6 py-2 bg-yellow-400 text-gray-900 rounded text-sm font-medium hover:bg-yellow-300 transition-colors">
               Subscribe

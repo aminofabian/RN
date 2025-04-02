@@ -18,7 +18,7 @@ const Header = ({
   return (
     <div className={cn("w-full flex flex-col gap-y-4 items-center", className)}>
       <h1 className="text-3xl font-semibold">
-        <span className="text-[#1e2c51]">RN</span>
+        <span className="text-[#5d8e9a]">RN</span>
         <span>Student</span>
       </h1>
       <p className="text-muted-foreground text-sm">

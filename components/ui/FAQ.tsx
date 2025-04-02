@@ -37,7 +37,7 @@ const FAQ = () => {
           <h2 className="text-3xl font-bold text-gray-900">
             Frequently Asked Questions
           </h2>
-          <div className="w-20 h-1 bg-blue-600 mx-auto mt-2" />
+          <div className="w-20 h-1 bg-[#5d8e9a] mx-auto mt-2" />
         </div>
 
         <div className="space-y-4">

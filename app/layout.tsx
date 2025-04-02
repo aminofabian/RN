@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   viewport: "width=device-width, initial-scale=1, maximum-scale=5",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "#ffffff" },
-    { media: "(prefers-color-scheme: dark)", color: "#1e2c51" },
+    { media: "(prefers-color-scheme: dark)", color: "#5d8e9a" },
   ],
   manifest: "/manifest.json",
   icons: {
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
       { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
     ],
     other: [
-      { rel: "mask-icon", url: "/safari-pinned-tab.svg", color: "#1e2c51" },
+      { rel: "mask-icon", url: "/safari-pinned-tab.svg", color: "#5d8e9a" },
     ],
   },
   appleWebApp: {

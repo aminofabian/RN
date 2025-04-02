@@ -75,7 +75,7 @@ const LoginForm = () => {
             </div>
             <FormError message="Either Your Email Address or Password is Wrong, Kindly Recheck and Try Again" />
             <FormSuccess message="You've successfully managed to log into your account" />
-            <Button variant="default" type="submit" className="w-full">
+            <Button variant="default" type="submit" className="w-full bg-[#5d8e9a] hover:bg-[#537f8a]">
               Login
             </Button>
           </form>

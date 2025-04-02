@@ -46,7 +46,7 @@ const BlogSection = () => {
           <h2 className="text-3xl font-bold text-gray-900">
             Latest from Our Blog
           </h2>
-          <div className="w-20 h-1 bg-blue-600 mx-auto mt-2" />
+          <div className="w-20 h-1 bg-[#5d8e9a] mx-auto mt-2" />
           <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
             Stay updated with the latest nursing education insights, study tips, and success stories
           </p>
@@ -70,7 +70,7 @@ const BlogSection = () => {
                     className="object-cover"
                   />
                   <div className="absolute top-4 left-4">
-                    <span className="px-3 py-1 text-xs font-medium bg-blue-600 text-white rounded-full">
+                    <span className="px-3 py-1 text-xs font-medium bg-[#5d8e9a] text-white rounded-full">
                       {post.category}
                     </span>
                   </div>
@@ -92,7 +92,7 @@ const BlogSection = () => {
                   <p className="text-sm text-gray-600 mb-4">
                     {post.excerpt}
                   </p>
-                  <div className="flex items-center text-blue-600 text-sm font-medium hover:text-blue-700 transition-colors">
+                  <div className="flex items-center text-[#5d8e9a] text-sm font-medium hover:text-[#537f8a] transition-colors">
                     Read More
                     <ArrowRight className="w-4 h-4 ml-1" />
                   </div>

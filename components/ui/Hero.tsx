@@ -76,21 +76,21 @@ const triggers = [
 
 const Hero = () => {
   return (
-    <div className="relative min-h-[600px] flex items-center bg-gradient-to-br from-[#1e2c51]/5 via-white to-[#1e2c51]/10">
+    <div className="relative min-h-[600px] flex items-center bg-gradient-to-br from-[#5d8e9a]/10 via-white to-[#4a7280]/10">
       <div className="absolute inset-0 bg-grid-black/[0.02] -z-10" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(30,44,81,0.1),rgba(255,255,255,0))]" />
       
       <div className="max-w-7xl mx-auto px-4 py-8 sm:py-16 w-full">
         <div className="text-center mb-8 sm:mb-16 relative">
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 bg-[#1e2c51]/5 rounded-full blur-3xl" />
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-blue-500/5 rounded-full blur-2xl" />
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 bg-[#5d8e9a]/20 rounded-full blur-3xl" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-[#5d8e9a]/20 rounded-full blur-2xl" />
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="relative"
           >
-            <span className="inline-block px-4 py-1.5 bg-[#1e2c51]/5 rounded-full text-xs sm:text-sm font-medium text-[#1e2c51] mb-4">
+            <span className="inline-block px-4 py-1.5 bg-[#5d8e9a]/20 rounded-full text-xs sm:text-sm font-medium text-[#5d8e9a] mb-4">
               #1 Nursing Education Platform
             </span>
           </motion.div>
@@ -102,7 +102,7 @@ const Hero = () => {
             transition={{ duration: 0.5 }}
           >
             Master Your Nursing Journey
-            <span className="block text-[#1e2c51]">With Confidence</span>
+            <span className="block text-[#5d8e9a]">With Confidence</span>
           </motion.h1>
 
           <motion.p 
@@ -111,7 +111,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            Join over <span className="font-semibold text-[#1e2c51]">50,000+</span> nursing students who&apos;ve achieved their goals with our comprehensive study materials and practice tests
+            Join over <span className="font-semibold text-[#5d8e9a]">50,000+</span> nursing students who&apos;ve achieved their goals with our comprehensive study materials and practice tests
           </motion.p>
 
           <motion.div
@@ -120,11 +120,11 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <Button size="lg" className="w-full sm:w-auto bg-[#1e2c51] hover:bg-[#1e2c51]/90 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+            <Button size="lg" className="w-full sm:w-auto bg-[#5d8e9a] hover:bg-[#537f8a] shadow-lg hover:shadow-xl transition-all duration-300 text-white">
               Get Started
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button size="lg" variant="outline" className="w-full sm:w-auto mt-2 sm:mt-0 border-[#1e2c51] text-[#1e2c51] hover:bg-[#1e2c51]/5">
+            <Button size="lg" variant="outline" className="w-full sm:w-auto mt-2 sm:mt-0 border-[#5d8e9a] text-[#5d8e9a] hover:bg-[#537f8a]/5">
               View Courses
             </Button>
           </motion.div>
@@ -152,7 +152,7 @@ const Hero = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
                 {item.tag && (
-                  <span className="absolute top-2 right-2 px-2 py-1 bg-[#1e2c51] text-white text-[10px] font-medium rounded-full">
+                  <span className="absolute top-2 right-2 px-2 py-1 bg-[#5d8e9a] text-white text-[10px] font-medium rounded-full">
                     {item.tag}
                   </span>
                 )}
@@ -184,7 +184,7 @@ const Hero = () => {
               className="flex items-center justify-center gap-3 bg-white/80 backdrop-blur-sm px-4 sm:px-6 py-3 sm:py-4 rounded-xl shadow-sm hover:shadow-md transition-all duration-300"
               whileHover={{ y: -2, backgroundColor: "rgba(255,255,255,0.9)" }}
             >
-              <span className="text-[#1e2c51] bg-[#1e2c51]/5 p-2 rounded-lg">
+              <span className="text-[#5d8e9a] bg-[#5d8e9a]/20 p-2 rounded-lg">
                 {trigger.icon}
               </span>
               <span className="text-xs sm:text-sm font-medium text-gray-700">

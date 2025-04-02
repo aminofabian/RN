@@ -35,7 +35,7 @@ const CardWrapper = ({
   return (
     <Card
       className={cn(
-        "container w-[400px] shadow-md border border-blue-500 mx-5",
+        "container w-[400px] shadow-md border border-[#5d8e9a] mx-5",
         font.className
       )}
     >
