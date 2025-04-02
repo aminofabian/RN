@@ -6,6 +6,9 @@ import Footer from "@/components/ui/Footer";
 import { cn } from "@/lib/utils";
 import MobileOptimizations from '@/components/utils/MobileOptimizations';
 import JsonLd from './JsonLd';
+import { MainNav as MainNavComponent } from "@/components/MainNav";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -85,7 +88,23 @@ export default function RootLayout({
       </head>
       <body className={cn(inter.className, "min-h-screen")}>
         <MobileOptimizations />
-        {children}
+        <header className="border-b">
+          <div className="container mx-auto px-4 py-4">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-6">
+                <Link href="/" className="font-bold text-xl">
+                  NursePrep
+                </Link>
+                <MainNavComponent />
+              </div>
+              <div className="flex items-center gap-4">
+                <Button variant="ghost">Sign In</Button>
+                <Button>Get Started</Button>
+              </div>
+            </div>
+          </div>
+        </header>
+        <main>{children}</main>
         <JsonLd />
       </body>
     </html>

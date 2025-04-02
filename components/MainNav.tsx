@@ -1,28 +1,74 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { Menu } from "lucide-react";
+import { 
+  BookOpen, 
+  GraduationCap, 
+  BarChart, 
+  Users, 
+  BookMarked,
+  HelpCircle 
+} from "lucide-react";
 
-export default function MainNav() {
+const mainNavItems = [
+  {
+    title: "Study Resources",
+    href: "/resources",
+    icon: BookOpen
+  },
+  {
+    title: "Practice Tests",
+    href: "/practice-tests",
+    icon: GraduationCap
+  },
+  {
+    title: "Progress Tracking",
+    href: "/progress",
+    icon: BarChart
+  },
+  {
+    title: "Study Groups",
+    href: "/study-groups",
+    icon: Users
+  },
+  {
+    title: "My Library",
+    href: "/library",
+    icon: BookMarked
+  },
+  {
+    title: "Help Center",
+    href: "/help",
+    icon: HelpCircle
+  }
+];
+
+export function MainNav() {
+  const pathname = usePathname();
+
   return (
-    <nav className="fixed top-0 left-0 right-0 h-[57px] bg-white border-b z-50">
-      <div className="flex items-center justify-between h-full px-6">
-        <div className="flex items-center gap-6">
-          <Link href="/" className="font-semibold text-xl text-[#1e2c51]">
-            RN Resources
+    <nav className="flex items-center space-x-4 lg:space-x-6">
+      {mainNavItems.map((item) => {
+        const Icon = item.icon;
+        return (
+          <Link
+            key={item.href}
+            href={item.href}
+            className={cn(
+              "flex items-center text-sm font-medium transition-colors hover:text-primary",
+              pathname === item.href
+                ? "text-primary"
+                : "text-muted-foreground"
+            )}
+          >
+            <Icon className="h-4 w-4 mr-2" />
+            {item.title}
           </Link>
-        </div>
-
-        <div className="flex items-center gap-4">
-          <Link href="/admin">
-            <Button variant="ghost">Admin</Button>
-          </Link>
-          <Link href="/dashboard">
-            <Button>Dashboard</Button>
-          </Link>
-        </div>
-      </div>
+        );
+      })}
     </nav>
   );
 } 
